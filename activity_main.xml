@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DokumentFoto"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Einfach fotografieren und speichern."
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="18dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/take_photo"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_marginTop="16dp"
+            android:background="#EEEEEE"
+            android:contentDescription="Vorschau des fotografierten Dokuments"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/status_start"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSaveJpg"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="16dp"
+            android:enabled="false"
+            android:text="@string/save_jpg"
+            android:textSize="18sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSavePdf"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:text="@string/save_pdf"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

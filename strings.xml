@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DokumentFoto</string>
+    <string name="take_photo">Dokument fotografieren</string>
+    <string name="save_jpg">Foto als JPG speichern</string>
+    <string name="save_pdf">Als PDF speichern</string>
+    <string name="status_start">Noch kein Dokument fotografiert.</string>
+</resources>
